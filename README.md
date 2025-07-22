@@ -35,20 +35,17 @@ A real-time posture evaluation and repetition counter for fitness exercises usin
 ```
 ├── main.py # Real-time / video input runner
 ├── exercises/
-│ ├── bicep_curl.py # Bicep curl logic
-│ ├── lateral_raise.py # Lateral raise logic
-│ ├── lunge.py # Lunge logic
-│ ├── pushup.py # Push-up logic
+│ ├── bicep_curl.py 
+│ ├── lateral_raise.py 
+│ ├── lunge.py
+│ ├── pushup.py 
 │ └── init.py
 ├── utils/
-│ ├── pose_extractor.py # Keypoint extraction + drawing
-│ ├── feedback_drawer.py # Draws rep count, angle, feedback
-│ └── pose_utils.py # Angle calculation logic
-├── videos/
-│ ├── input/ # Input demo videos
-│ └── output.mp4 # Output with visual feedback
+│ ├── pose_extractor.py
+│ ├── feedback_drawer.py 
+│ └── pose_utils.py
 ├── requirements.txt
-└── README.md
+
 ```
 ---
 ## ⚙️ How It Works

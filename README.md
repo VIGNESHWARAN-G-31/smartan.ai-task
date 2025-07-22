@@ -50,4 +50,5 @@ A real-time posture evaluation and repetition counter for fitness exercises usin
 ├── requirements.txt
 └── README.md
 ```
+---
 

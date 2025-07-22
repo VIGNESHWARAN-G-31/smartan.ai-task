@@ -51,4 +51,34 @@ A real-time posture evaluation and repetition counter for fitness exercises usin
 └── README.md
 ```
 ---
+## ⚙️ How It Works
+
+This system provides real-time exercise feedback using computer vision and pose estimation. Here’s an overview of the main components:
+
+- **Pose Detection**: Utilizes MediaPipe to identify and track key body landmarks.
+- **Angle Calculation**: Computes critical joint angles (elbow, knee, shoulder) for each frame.
+- **Form Evaluation**: Assesses user posture, determines movement phase (e.g., up, down), and provides corrections or encouragement.
+- **Counter**: Increases repetition count only when full-motion and proper transitions are detected.
+- **Visual Feedback**: A dynamic feedback box overlays the video, presenting:
+  - ✅ Pose name
+  - 🔁 Current repetition counts
+  - 💬 Real-time suggestions (like "Raise higher", "Good job", "Fix your posture")
+  - 📐 Live joint angles
+
+---
+
+### ✨ Sample Feedback Messages
+
+- “Left rep counted”
+- “Pull right arm more”
+- “Great form!”
+- “Standing straight. Prepare to lunge”
+- “Fix your form”
+
+---
+## 📽️ Output Preview
+
+Watch all processed exercise feedback videos here:  
+[All Output Videos – Google Drive](https://drive.google.com/drive/u/0/folders/1y_KiJy0xEEv1PO_oFlzLSNOz7F5B7nVw)
+  
 

@@ -32,6 +32,7 @@ A real-time posture evaluation and repetition counter for fitness exercises usin
 ---
 
 ## 📂 Folder Structure
+
 ├── main.py # Real-time / video input runner
 ├── exercises/
 │ ├── bicep_curl.py # Bicep curl logic
